@@ -1,5 +1,7 @@
 import React from "react";
 import CountUp from "react-countup";
+import user from '../components/img/user.png'
+import { use } from "react";
 
 const AboutUs = () => {
   return (
@@ -46,7 +48,7 @@ const AboutUs = () => {
           <div className="group bg-slate-800/50 p-6 rounded-xl border border-slate-700/50 hover:border-sky-500/30 transition-all">
             <div className="relative w-32 h-32 rounded-full mx-auto mb-6 overflow-hidden border-2 border-sky-500/20 group-hover:border-sky-500/50 transition-all">
               <img
-                src="https://img.freepik.com/free-photo/medium-shot-man-holding-helmet_23-2149396222.jpg"
+                src={user}
                 alt="Team Member"
                 className="w-full h-full object-cover transform group-hover:scale-105 transition-all"
               />
@@ -62,7 +64,7 @@ const AboutUs = () => {
           <div className="group bg-slate-800/50 p-6 rounded-xl border border-slate-700/50 hover:border-sky-500/30 transition-all">
             <div className="relative w-32 h-32 rounded-full mx-auto mb-6 overflow-hidden border-2 border-sky-500/20 group-hover:border-sky-500/50 transition-all">
               <img
-                src="https://img.freepik.com/premium-photo/portrait-elegantly-dressed-business-woman-near-blue-wall-modern-office-building_669798-2928.jpg"
+                src={user}
                 alt="Team Member"
                 className="w-full h-full object-cover transform group-hover:scale-105 transition-all"
               />
@@ -78,7 +80,7 @@ const AboutUs = () => {
           <div className="group bg-slate-800/50 p-6 rounded-xl border border-slate-700/50 hover:border-sky-500/30 transition-all">
             <div className="relative w-32 h-32 rounded-full mx-auto mb-6 overflow-hidden border-2 border-sky-500/20 group-hover:border-sky-500/50 transition-all">
               <img
-                src="https://img.freepik.com/premium-photo/portrait-elegantly-dressed-business-woman-near-blue-wall-modern-office-building_669798-2928.jpg"
+                src={user}
                 alt="Team Member"
                 className="w-full h-full object-cover transform group-hover:scale-105 transition-all"
               />
