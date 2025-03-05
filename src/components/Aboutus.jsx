@@ -1,5 +1,4 @@
 import React from "react";
-import back from './img/back1.jpg'
 
 const OurMemories = () => {
   const photos = [
@@ -16,7 +15,7 @@ const OurMemories = () => {
     },
     {
       id: 3,
-      src: { back },
+      src: 'https://img.freepik.com/free-photo/young-couple-hugging-sea-shore-evening_23-2148020113.jpg?t=st=1741148527~exp=1741152127~hmac=8211e3134a14686fa2d9896452dd706bc1560fa7a62812bb0f1761217e677cc1&w=1800',
       alt: "Beach Paradise",
       description: "Sunset moments in Maldives",
     },
